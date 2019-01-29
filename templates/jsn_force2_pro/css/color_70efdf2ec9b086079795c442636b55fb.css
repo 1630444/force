@@ -1,0 +1,35 @@
+/* ============================ */
+a {
+  color: #ff952e;
+}
+a:hover {
+  color: #fa7b00;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  background: transparent;
+  color: #ff952e;
+}
+.readmore a.btn {
+  background-color: #ff952e;
+  color: #fff;
+}
+div.lightbox-2 h3.box-title span, div.richbox-2 h3.box-title, .bx-wrapper .bx-controls .bx-pager-item a:hover, .bx-wrapper .bx-controls .bx-pager-item a.active, .sunfw_section_footer .module-style .demo-product-tags .tag-list li a:hover, .category-view .row .category .spacer h2 a:hover, .mod-product-vm .module-title .box-title span, .mod-new-product .module-title .box-title span, .category-title span, .module-title .module-style1 span {
+  background-color: #ff952e;
+}
+.mark .mark-inner .vm-details-button a:hover {
+  background-image: url(../images/vm/detail-icon-white.png);
+  background-color: #ff952e;
+}
+.mark .mark-inner div[class*="vm3pr-"] .addtocart-area .addtocart-button input.addtocart-button:hover {
+  background-image: url(../images/vm/add-to-cart-white.png);
+  background-color: #ff952e;
+}
+div.module-body ul.menumenu-sidemenu li:hover > a, div.module-body ul.menumenu-sidemenu li.active > a, div.module-body ul.menumenu-sidemenu > li.active > a, div.module-body ul.menumenu-treemenu li:hover > a, div.module-body ul.menumenu-treemenu li.active > a, .sunfw_section_menu nav.navbar #menu_item_menu ul.nav.sunfw-tpl-menu > li.active > a, .sunfw-pos-innerleft .box-title, .sunfw-pos-innerright .box-title, .sunfw-pos-right .box-title, .sunfw-pos-left .box-title, .item-page .page-header h2, .sunfw_section_menu nav.navbar #menu_item_menu ul.nav.sunfw-tpl-menu > li.active > a, .sunfw_section_menu nav.navbar #menu_item_menu ul.nav.sunfw-tpl-menu > li > a:hover, .sunfw_section_top ul.nav.menu-top li a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover, .sunfw_section_footer .module-style ul.nav > li > a:hover, .galleria-info .galleria-info-text .galleria-info-title, #menu_item_menu ul.sunfw-tpl-menu li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-mega-menu .sunfw-block .sunfw-item .modulecontainer > ul.nav > li a:hover, #menu_item_menu ul.sunfw-tpl-menu li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-mega-menu .sunfw-block .sunfw-item .modulecontainer > ul.nav > li.current a, #menu_item_menu ul.sunfw-tpl-menu li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-mega-menu .sunfw-block .sunfw-item .modulecontainer > ul.nav > li a.current, #feauture-product div.product .spacer .product-info .product-name a:hover {
+  color: #ff952e;
+}
+p.readmore a.btn {
+  background: #ff952e;
+}
+p.readmore a.btn:hover {
+  background: #fa7b00;
+}

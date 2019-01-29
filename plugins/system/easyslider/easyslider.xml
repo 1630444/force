@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_EASYSLIDER</name>
+	<version>2.1.9</version>	
+	<creationDate>07/06/2017</creationDate>
+	<author>JoomlaShine.com</author>
+	<authorEmail>admin@joomlashine.com</authorEmail>
+	<authorUrl>www.joomlashine.com</authorUrl>
+	<copyright>Copyright (C) 2013 JoomlaShine.com. All Rights Reserved.</copyright>
+	<license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<description>PLG_SYSTEM_EASYSLIDER_XML_DESCRIPTION</description>
+	<scriptfile>subinstall.php</scriptfile>
+
+	<files>
+		<filename plugin="easyslider">easyslider.php</filename>
+		<filename>index.html</filename>
+		<filename>easyslider.xml</filename>
+		<filename>subinstall.php</filename>
+		<folder>assets</folder>
+	</files>
+	<config />
+</extension>

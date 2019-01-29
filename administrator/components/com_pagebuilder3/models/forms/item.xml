@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldpath="/plugins/system/jsnframework/libraries/joomlashine/form/fields">
+	<fieldset name="general" label="JSN_PAGEBUILDER3_ITEM_GENERAL">
+		<field
+			name="item_id" type="recordid" hide-label="0" hide-field="0"
+			label="ID" description="ID"
+		/>
+
+		<field
+			name="item_title" type="jsntext" required="true" class="jsn-input-xlarge-fluid"
+			label="JSN_PAGEBUILDER3_ITEM_TITLE" description="JSN_PAGEBUILDER3_ITEM_TITLE"
+		/>
+
+		<field
+			name="item_alias" type="jsntext" class="jsn-input-xlarge-fluid"
+			label="JSN_PAGEBUILDER3_ITEM_ALIAS" description="JSN_PAGEBUILDER3_ITEM_ALIAS"
+		/>
+
+		<field
+			name="published" type="list" default="0" filter="int" size="1" class="form-field-select"
+			label="JSN_PAGEBUILDER3_PUBLISHED" description="JSN_PAGEBUILDER3_PUBLISHED"
+		>
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+
+		<field
+			name="access" type="accesslevel" size="1" class="form-field-select"
+			label="JSN_PAGEBUILDER3_ACCESS_LEVEL" description="JSN_PAGEBUILDER3_ACCESS_LEVEL"
+		/>
+		
+		<field name="link_type" type="hidden" />
+		<field name="link_id" type="hidden" />
+	</fieldset>
+
+	<fieldset skipRender="1">
+		<field name="item_data" type="text" class="jsn-input-large-fluid" />
+	</fieldset>
+</form>

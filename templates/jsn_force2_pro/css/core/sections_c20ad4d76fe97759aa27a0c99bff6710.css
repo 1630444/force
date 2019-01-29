@@ -1,0 +1,73 @@
+#sunfw_section_footer {
+  background-color: #000;
+  color: #808080;
+  font-size: 14px;
+}
+#sunfw_section_footer h1, #sunfw_section_footer h2, #sunfw_section_footer h3, #sunfw_section_footer h4, #sunfw_section_footer h5, #sunfw_section_footer h6, #sunfw_section_footer .h1, #sunfw_section_footer .h2, #sunfw_section_footer .h3, #sunfw_section_footer .h4, #sunfw_section_footer .h5, #sunfw_section_footer .h6 {
+  color: #00ad5f;
+  line-height: 1.4;
+}
+#sunfw_section_footer h1, #sunfw_section_footer .h1 {
+  font-size: 31px;
+}
+#sunfw_section_footer h2, #sunfw_section_footer .h2 {
+  font-size: 25px;
+}
+#sunfw_section_footer h3, #sunfw_section_footer .h3 {
+  font-size: 21px;
+}
+#sunfw_section_footer h4, #sunfw_section_footer .h4 {
+  font-size: 15px;
+}
+#sunfw_section_footer h5, #sunfw_section_footer .h5 {
+  font-size: 12px;
+}
+#sunfw_section_footer h6, #sunfw_section_footer .h6 {
+  font-size: 11px;
+}
+#sunfw_section_copyright {
+  background-color: #000;
+  color: #7d7d7d;
+  font-size: 14px;
+}
+#sunfw_section_copyright h1, #sunfw_section_copyright h2, #sunfw_section_copyright h3, #sunfw_section_copyright h4, #sunfw_section_copyright h5, #sunfw_section_copyright h6, #sunfw_section_copyright .h1, #sunfw_section_copyright .h2, #sunfw_section_copyright .h3, #sunfw_section_copyright .h4, #sunfw_section_copyright .h5, #sunfw_section_copyright .h6 {
+  color: #7d7d7d;
+  line-height: 1.4;
+}
+#sunfw_section_copyright h1, #sunfw_section_copyright .h1 {
+  font-size: 31px;
+}
+#sunfw_section_copyright h2, #sunfw_section_copyright .h2 {
+  font-size: 25px;
+}
+#sunfw_section_copyright h3, #sunfw_section_copyright .h3 {
+  font-size: 21px;
+}
+#sunfw_section_copyright h4, #sunfw_section_copyright .h4 {
+  font-size: 15px;
+}
+#sunfw_section_copyright h5, #sunfw_section_copyright .h5 {
+  font-size: 12px;
+}
+#sunfw_section_copyright h6, #sunfw_section_copyright .h6 {
+  font-size: 11px;
+}
+#sunfw_section_main-body {
+  background-color: custom;
+}
+#sunfw_section_slider-product {
+  background-image: url("../../../../templates/jsn_force2_pro/images/backgrounds/dark_mosaic.png");
+}
+#sunfw_section_content-top {
+  background-image: url("../../../../templates/jsn_force2_pro/images/backgrounds/bg-content-top.png");
+}
+#sunfw_section_content-top .btn-default, #sunfw_section_content-top .btn-primary {
+  font-size: 12px;
+}
+#sunfw_section_content-top .btn-default {
+  -webkit-box-shadow: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 0px 0px;
+}
+#sunfw_section_menu {
+  background-color: #000;
+}

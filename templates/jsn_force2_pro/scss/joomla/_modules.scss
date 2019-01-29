@@ -1,0 +1,326 @@
+/*!
+ * Sun Framework
+ * Copyright 2016 Joomlashine.
+ * @file _modules.scss
+ */
+
+
+//
+// Module Styles
+// --------------------------------------------------
+.module-title .box-title.fa:before {
+  @include rtl-padding-right(5px);
+  @include rtl-padding-left(0);
+}
+
+
+//
+// Breadcrumbs
+// --------------------------------------------------
+.sunfw-breadcrumb {
+  padding: 40px 0;
+  .breadcrumb {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    > .active {
+      color: #FFF;
+    }
+  }
+}
+
+//
+// Menu Styles
+// --------------------------------------------------
+
+ul.nav > li > a i.fa {
+  padding-right: 5px;
+}
+.sunfw-direction-rtl ul.nav > li > a i.fa {
+  padding-right: 0;
+  padding-left: 5px;
+}
+/* =============== MENU - SIDE MENU =============== */
+.menu-sidemenu {
+  ul.menu {
+    li {
+      position: relative;
+      a, > span.separator {
+        transition: color 0.3s linear, background 0.3s ease-out;
+        -moz-transition: color 0.3s linear, background 0.3s ease-out;
+        -webkit-transition: color 0.3s linear, background 0.3s ease-out;
+      }
+      ul {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 200px;
+        list-style: none;
+        padding: 0;
+        background: #FFF;
+        border: 1px solid #ccc;
+        @include rtl-right(-200px);
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      }
+      &:hover {
+        > ul {
+          opacity: 100;
+          z-index: 10;
+          filter: alpha(opacity=100);
+          -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+          li {
+            a, > span.separator {
+              font-size: 12px;
+              cursor: pointer;
+              display: block;
+              -webkit-transition: color 0.3s linear 0s, background 0.3s ease-out 0s;
+              -moz-transition: color 0.3s linear 0s, background 0.3s ease-out 0s;
+              -ms-transition: color 0.3s linear 0s, background 0.3s ease-out 0s;
+              -o-transition: color 0.3s linear 0s, background 0.3s ease-out 0s;
+              transition: color 0.3s linear 0s, background 0.3s ease-out 0s;
+              &:hover {
+                color: #FFF;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.layout-right {
+    ul.menu li ul {
+      @include rtl-right(auto);
+      @include rtl-left(-200px);
+    }
+  }
+}
+
+//
+// Front end edit
+// --------------------------------------------------\
+
+.edit {
+  #adminForm {
+    .btn-toolbar {
+      padding-bottom: 10px;
+    }
+    fieldset {
+      ul.nav-tabs {
+        > li > a {
+          display: block !important;
+        }
+      }
+      .tab-content {
+        padding-top: 15px;
+        .control-label {
+          > label {
+            display: inline-block !important;
+            padding-top: 10px;
+          }
+        }
+        #jform_state-lbl {
+          padding-top: 10px;
+        }
+        #jform_title {
+          margin-bottom: 10px;
+        }
+        .controls {
+          input {
+            padding: 7px 10px;
+          }
+          textarea {
+            padding: 10px;
+          }
+          .chzn-search {
+            input {
+              padding: 4px 20px 4px 5px;
+            }
+          }
+          > .chzn-container {
+            width: 250px !important;
+          }
+          .chzn-container-single .chzn-single {
+            height: 30px;
+            line-height: 29px;
+          }
+          .chzn-container-multi .chzn-choices li.search-field input[type="text"] {
+            height: 30px;
+          }
+          .input-append {
+            > input {
+              display: inline-block !important;
+              float: left;
+            }
+            .btn {
+              padding: 7px 10px;
+              position: relative;
+              top: -1px;
+              line-height: 20px;
+              border-style: solid;
+              border-color: #CCC;
+              border-width: 1px 1px 1px 0;
+              -webkit-border-radius:0;
+              -moz-border-radius:0;
+              border-radius:0;
+              span.icon-remove::before {
+                content: "x";
+                margin: 0 5px;
+              }
+            }
+            span.icon-calendar {
+              &:before {
+                content: "\f274";
+                font-family: FontAwesome;
+              }
+            }
+          }
+        }
+      }
+    }
+    .btn-toolbar {
+      padding-top: 10px;
+      .btn {
+        border: 1px solid #CCC;
+      }
+    }
+  }
+}
+.sunfw-view-modules {
+  #modules-form {
+    .btn-toolbar {
+      padding-top: 10px;
+      .btn {
+        border: 1px solid #ccc;
+      }
+    }
+    .control-group {
+      padding-bottom: 10px;
+      .control-label {
+        text-align: left;
+        label {
+          display: inline-block !important;
+        }
+      }
+      .radio input[type="radio"] {
+        margin-left: 0;
+      }
+      .radio label, .checkbox label {
+        padding-right: 5px;
+      }
+      input {
+        padding: 1px 10px;
+      }
+      textarea {
+        padding: 10px;
+      }
+      .chzn-search {
+        input {
+          padding: 4px 20px 4px 5px;
+        }
+      }
+      > .chzn-container {
+        width: 250px !important;
+      }
+      .chzn-container-single .chzn-single {
+        height: 30px;
+        line-height: 29px;
+      }
+      .chzn-container-multi .chzn-choices li.search-field input[type="text"] {
+        height: 30px;
+      }
+      .input-append {
+        > input {
+          display: inline-block !important;
+        }
+        .btn {
+          padding: 5px 10px;
+          position: relative;
+          top: -1px;
+          line-height: 20px;
+          border-style: solid;
+          border-color: #CCC;
+          border-width: 1px 1px 1px 0;
+          -webkit-border-radius:0;
+          -moz-border-radius:0;
+          border-radius:0;
+        }
+        span.icon-calendar {
+          &:before {
+            content: "\f274";
+            font-family: FontAwesome;
+          }
+        }
+      }
+      .btn-toolbar {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+.btn.jmodedit {
+  background: #FFF;
+  border: 1px solid #CCC;
+  padding: 6px 10px;
+  width: 33px !important;
+  height: 33px !important;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+  .icon-edit:before {
+    content: "\f044";
+    font-size: 14px;
+    line-height: 1;
+    color: #333;
+    font-family: FontAwesome;
+  }
+}
+
+// ---------------------Position Sticky-----------------------------\
+
+div[class*=sunfw-pos-stick-] {
+  position: fixed;
+  z-index: 8888;
+}
+
+.sunfw-pos-stick-lefttop {
+  @include rtl-left(0);
+}
+
+.sunfw-pos-stick-righttop {
+  @include rtl-right(0);
+}
+
+.sunfw-pos-stick-leftmiddle {
+  @include rtl-left(0);
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.sunfw-pos-stick-rightmiddle {
+  @include rtl-right(0);
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.sunfw-pos-stick-leftbottom {
+  @include rtl-left(0);
+  bottom: 0
+}
+
+.sunfw-pos-stick-rightbottom {
+  @include rtl-right(0);
+  bottom: 0;
+}
+.cc-theme-block.cc-type-info.cc-top{
+  z-index: 9999;
+}
+

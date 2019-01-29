@@ -1,0 +1,101 @@
+/* ============================ */
+$main-color: false !default;
+@if($main-color != false) {
+
+  /* ==================== Background ==================== */
+  a {
+    color: $main-color;
+    &:hover {
+      color: darken($main-color, 10%);
+    }
+  }
+  
+  .dropdown-menu > .active > a,
+  .dropdown-menu > .active > a:hover,
+  .dropdown-menu > .active > a:focus {
+    background: transparent;
+    color: $main-color;
+  }
+
+  .readmore a.btn {
+    background-color: $main-color;
+    color: #fff;
+  }
+  button.btn-primary, input.highlight-button,
+  .pagination > .active > a, .pagination > .active > a:hover, 
+  .pagination > .active > a:focus, .pagination > .active > span, 
+  .pagination > .active > span:hover, .pagination > .active > span:focus,
+  #k2Container.latestView .latestItemReadMore .k2ReadMore:hover,
+  #k2Container.userView .userItemList .userItemView .userItemContentFooter .userItemReadMore .k2ReadMore:hover,
+  #k2Container.itemView .itemRelated ul li a:hover, #k2Container.itemView .itemNavigation ul li a:hover,
+  #k2Container .itemList .itemContainer .catItemView .catItemContentFooter .catItemReadMore .k2ReadMore:hover {
+    border-color: $main-color;
+  }
+  
+  .mark .mark-inner .vm-details-button a:hover {
+    background-image: url(../images/vm/detail-icon-white.png);
+    background-color: $main-color;
+  }
+  
+  .mark .mark-inner div[class*="vm3pr-"] .addtocart-area .addtocart-button input.addtocart-button:hover {
+    background-image: url(../images/vm/add-to-cart-white.png);
+    background-color: $main-color;
+  }
+  p.readmore a.btn {
+    background: $main-color;
+    &:hover {
+      background: darken($main-color, 10%);
+    }
+  }
+  input.highlight-button, .progress-bar, .sunfw_section_menu .sunfw-logo,
+  .pagination > .active > a, .pagination > .active > a:hover, 
+  .pagination > .active > a:focus, .pagination > .active > span, 
+  .pagination > .active > span:hover, .pagination > .active > span:focus,
+  .sunfw_section_footer .module-style .jsn-uniform .form-validate .jsn-row-container .form-actions .btn-toolbar .jsn-form-submit,
+  #k2Container.latestView .latestItemReadMore .k2ReadMore:hover,
+  #k2Container.userView .userItemList .userItemView .userItemContentFooter .userItemReadMore .k2ReadMore:hover,
+  #k2Container.tagView .tagItemContentFooter .k2ReadMore:hover,
+  #k2Container .itemList .itemContainer .catItemView .catItemContentFooter .catItemReadMore .k2ReadMore:hover,
+  div.solid-1, #kunena .navbar ul.nav li.active a, #kunena .navbar ul.nav li a:hover,
+  div.lightbox-2 h3.box-title span, div.richbox-2 h3.box-title,
+  .bx-wrapper .bx-controls .bx-pager-item a:hover, .bx-wrapper .bx-controls .bx-pager-item a.active,
+  .sunfw_section_footer .module-style .demo-product-tags .tag-list li a:hover,
+  .category-view .row .category .spacer h2 a:hover,
+  .mod-product-vm .module-title .box-title span,
+  .mod-new-product .module-title .box-title span,
+  .category-title span, button.btn-primary,
+  .module-title .module-style1 span, {
+    background-color: $main-color;
+  }
+
+  
+  .btn-link,.sunfw-switcher a.btn.active, .sunfw-switcher a.btn:active,
+  .pagination > li > a, .pagination > li > span,
+  #k2Container.latestView .latestItemTagsBlock ul.latestItemTags li a:hover,
+  #k2Container.itemView .itemRelated ul li a:hover, #k2Container.itemView .itemNavigation ul li a:hover,
+  #k2Container.itemView .itemAuthorBlock .itemAuthorLatest ul li a:hover,
+  #k2Container .itemList .itemContainer .catItemView .catItemLinks div.catItemTagsBlock ul.catItemTags li a:hover,
+  #k2Container .itemList .itemContainer .catItemView .catItemHeader .catItemTitle a:hover,
+  div.module-body ul.menumenu-sidemenu li:hover > a,
+  div.module-body ul.menumenu-sidemenu li.active > a,
+  div.module-body ul.menumenu-sidemenu > li.active > a,
+  div.module-body ul.menumenu-treemenu li:hover > a,  div.module-body ul.menumenu-treemenu li.active > a,
+  // .sunfw_section_menu nav.navbar #menu_item_menu ul.nav.sunfw-tpl-menu > li.active > a,
+  .sunfw-pos-innerleft .box-title, .sunfw-pos-innerright .box-title,
+  .sunfw-pos-right .box-title, .sunfw-pos-left .box-title, .item-page .page-header h2,
+  // .sunfw_section_menu nav.navbar #menu_item_menu ul.nav.sunfw-tpl-menu > li.active > a,
+  // .sunfw_section_menu nav.navbar #menu_item_menu ul.nav.sunfw-tpl-menu > li > a:hover,
+  .sunfw_section_top ul.nav.menu-top li a:hover,
+  .dropdown-menu > li > a:focus,  .dropdown-menu > li > a:hover,
+  .sunfw_section_footer .module-style ul.nav >li >a:hover, .galleria-info .galleria-info-text .galleria-info-title,
+  #menu_item_menu ul.sunfw-tpl-menu li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-mega-menu .sunfw-block .sunfw-item .modulecontainer > ul.nav > li a:hover,
+  #menu_item_menu ul.sunfw-tpl-menu li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-mega-menu .sunfw-block .sunfw-item .modulecontainer > ul.nav > li.current a,
+  #menu_item_menu ul.sunfw-tpl-menu li.megamenu ul.sunfw-megamenu-sub-menu .sunfw-mega-menu .sunfw-block .sunfw-item .modulecontainer > ul.nav > li a.current,
+  #feauture-product div.product .spacer .product-info .product-name a:hover {
+    color: $main-color;
+  }
+  ul.sunfw-tpl-menu > li.dropdown-submenu ul >li.active >a {
+    color: $main-color !important;
+  }
+
+}

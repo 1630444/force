@@ -1,0 +1,66 @@
+.fas {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn {
+	font-size: 14px !important;
+}
+button.ui-datepicker-trigger.btn.btn-icon {
+	padding: 3px 20px;
+}
+.item-page .pull-left .img-responsive, .pull-left .img-responsive {
+  margin-right: 10px;
+}
+.item-page .pull-right .img-responsive, .pull-right .img-responsive {
+  margin-left: 10px;
+}
+table.user-details input {
+	margin-bottom: 15px !important;
+}
+table.user-details input[type="checkbox"] {
+	width: auto;
+}
+.chzn-container {
+	width: 200px !important;
+	margin-bottom: 15px;
+}
+
+.vm-group .bx-viewport {
+	height: auto !important;
+}
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+	border-top: none;
+}
+#sbox-window {
+	box-sizing: content-box;
+}
+span.nav-header i {
+	margin-right: 5px;
+}
+.dropdown-menu {
+	padding: 0;
+}
+#kunena.layout {
+	.kfrontend {
+		.btn {
+			visibility: visible;
+		}
+	}
+	.kprofile {
+		.kinfo {
+			visibility: visible;
+		}
+	}
+}
+#kunena.layout  {
+	.search {
+		border: none;
+	}
+}
+div.articleBody {
+	margin-top: 15px;
+}

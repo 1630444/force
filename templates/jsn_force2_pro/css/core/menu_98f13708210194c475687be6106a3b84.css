@@ -1,0 +1,14 @@
+#menu_item_menu ul.navbar-nav > li > a, #menu_item_menu ul.navbar-nav > li > span.nav-header {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+}
+#menu_item_menu ul.navbar-nav > li:hover > a, #menu_item_menu ul.navbar-nav > li.active > a, #menu_item_menu ul.navbar-nav > li:hover > span.nav-header, #menu_item_menu ul.navbar-nav > li.active > span.nav-header {
+  color: #00bbea;
+}
+#menu_item_menu ul.dropdown-menu li a, #menu_item_menu ul.sunfw-megamenu-sub-menu li a, #menu_item_menu .modulecontainer ul.nav-child li a, #menu_item_menu ul.dropdown-menu li span.nav-header, #menu_item_menu ul.sunfw-megamenu-sub-menu li span.nav-header, #menu_item_menu .modulecontainer ul.nav-child li span.nav-header {
+  font-size: 14px;
+}
+#menu_item_menu ul.dropdown-menu, #menu_item_menu ul.sunfw-megamenu-sub-menu ul {
+  width: 260px;
+}

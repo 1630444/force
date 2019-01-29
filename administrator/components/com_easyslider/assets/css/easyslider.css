@@ -1,0 +1,11 @@
+.jsn-easyslider-hide {
+    display: none;
+}
+
+.com_easyslider .jsn-drop-menu .navbar .nav > li ul.dropdown-menu {
+    overflow: visible;
+}
+
+.jsn-drop-menu .navbar .nav > li > a:hover {
+    color: #333 !important;
+}

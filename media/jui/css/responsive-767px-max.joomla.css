@@ -1,0 +1,28 @@
+/* Joomla JUI NOTE: Original .modal definition has to be commented */
+@media (max-width: 767px) {
+  div.modal {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    width: auto;
+    margin: 0;
+  }
+  div.modal.fade {
+    top: -100px;
+  }
+  div.modal.fade.in {
+    top: 20px;
+  }
+  div.modal[class*="jviewport-width"] {
+    width: auto;
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  div.modal {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+  }
+}

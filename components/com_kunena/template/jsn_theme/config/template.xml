@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE kinstall>
+<kinstall type="kunena-template" version="4.0" method="upgrade">
+	<name>JSN Theme</name>
+	<version>5.0.7</version>
+	<creationDate>2016-08-20</creationDate>
+	<author>Joomlashine Team</author>
+	<authorUrl>https://www.joomlashine.com</authorUrl>
+	<license>GNU/GPL</license>
+	<thumbnail>template_thumbnail.png</thumbnail>
+</kinstall>

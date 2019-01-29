@@ -1,0 +1,280 @@
+#kunena.layout .navbar .navbar-inner ul li{
+	margin: 0;
+}
+#kunena .navbar .nav > li > a{
+	transition: color 0.3s linear 0s, background 0.3s ease-out 0s;
+	box-shadow: none;
+	text-shadow: none;
+}
+#kunena.layout .kfrontend{
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+#kunena.layout .btn-toolbar .btn.b3,#kunena.layout #search .btn.b3{
+	padding: 0 5px;
+}
+#kunena.layout .btn-toolbar .btn.b3:before, #kunena.layout #search .btn.b3:before{
+	font-size: 10px !important;
+}
+#kunena.layout .breadcrumb{
+	margin: 20px 0;
+}
+#userdropdownlogin a.thumbnail span.icon-user{
+	width: auto;
+}
+#userdropdownlogin form.form-signin input.form-control{
+	margin: 5px 0;
+}
+#userdropdownlogin form.form-signin button[type="submit"]{
+	margin: 5px 0 !important;
+}
+#kunena.layout .nav > li:hover > a.dropdown-toggle:not(#klogin), #kunena.layout .nav > li:focus > a.dropdown-toggle:not(#klogin){
+	background: none !important;
+}
+#kunena.layout i[class*=" icon-"]{
+	width: auto;
+}
+#kunena.layout .fa-big, #kunena.layout .icon-big{
+	margin: 10px 5px auto;
+}
+#kunena [class*="icon-"]{
+	background: none; 
+}
+#kunena .input-append .btn{
+	padding: 4px 12px;
+}
+#kunena a.hasTooltip{
+	display: inline-block !important;
+}
+#kunena .btn[name='kcheckgo']{
+	border: 1px solid #ccc;
+	height: 36px;
+}
+#kunena .btn-default{
+	border: 1px solid #ccc;
+	padding: 6px 12px;
+}
+#kunena .btn-primary{
+	padding: 6px 12px;	
+}
+#kunena .btn-toolbar > div > .btn-group{
+	margin-right: 10px;
+}
+#kunena.layout .center{
+	left: auto;
+}
+#userdropdownlogin .form-signin button.btn{
+	display: block;
+}
+#kunena .table-bordered > thead > tr > th, #kunena .table-bordered > thead > tr > td {
+    border-bottom-width: 1px; 
+}
+#kunena ul.breadcrumb li span.glyphicon{
+  	margin-right: 5px;
+}
+#kunena.layout #jumpto select{
+  	width: auto !important;
+}
+#kunena #jumpto{
+ 	margin-bottom: 15px;
+}
+#kunena.layout .mobile-user{
+	display: block !important;
+}
+#ktopicsform > table{
+	margin-top: 5px;
+}
+#kwho{
+	margin-left: -15px;
+	margin-right: -15px;
+
+}
+#kwho ul{
+	padding-left: 15px;
+}
+
+#kunena .navbar ul.nav li.active a,
+#kunena .navbar ul.nav li a:hover {
+	background-color: #8d9a48;
+	color: #fff;
+}
+#kunena .breadcrumb {
+	border-bottom: 0;
+}
+#kunena .breadcrumb li:after {
+	content: "\f105";
+	font-family: fontawesome;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0 5px;
+}
+#kunena .breadcrumb li:last-child:after {
+	content: "";
+}
+#kunena .breadcrumb li span {
+	padding: 0;
+}
+#kunena .statistics h1 {
+	margin-bottom: 20px;
+}
+#kunena.layout legend {
+	padding-bottom: 10px;
+}
+#kunena.layout .form-control {
+	margin: 10px 0;
+}
+#kunena.layout .form-search .search .btn {
+	line-height: 28px;
+}
+#kunena.layout .form-search .search input.form-control {
+    margin: 0;
+    top: 0;
+    right: 0;
+    text-indent: 10px;
+}
+.sunfw-direction-rtl #kunena.layout .navbar-inner .navbar-nav {
+	float: right;
+}
+.sunfw-direction-rtl #kunena.layout .search .btn {
+	left: 0;
+	right: auto;
+}
+.sunfw-direction-rtl #kunena.layout .search input {
+	top: 0;
+	left: 0;	
+	right: auto;
+	margin: 0;
+}
+
+#kunena.layout #search select.form-control {
+	height: 36px;
+	line-height: 34px;
+	padding: 0;
+}
+#kunena.layout #search select#categorylist {
+	height: auto;
+}
+@media (max-width: 960px) {
+	#kunena.layout .row fieldset:first-child legend {
+		padding-top: 0;
+	}
+	#kunena.layout .row fieldset legend {
+		padding-top: 20px;
+	}
+	#kunena.layout li.dropdown {
+		padding: 0;
+	}
+	#kunena.layout .mobile-user {
+		margin-top: -38px !important;
+	}
+	#kunena.layout li.dropdown,
+	#kunena.layout .navbar-nav.pull-left > div.collapse:not(.in) {
+		display: block !important;
+	}
+	#kunena.layout .search .btn {
+		height: 32px;
+		width: 32px;
+		line-height: 31px;
+	}
+	#search fieldset [class*="col-md-"] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.table-bordered > thead > tr > th,
+	.table-bordered > thead > tr > td {
+		border-bottom-width: 1px !important;
+	}
+	#kunena.layout .table td.col-md-1,
+	#kunena.layout .table th.col-md-1 {
+		width: 10%;
+	}
+	#kunena.layout .table td.col-md-6,
+	#kunena.layout .table th.col-md-6 {
+		width: 20%;
+	}
+	#kunena.layout #search .btn[data-toggle="collapse"] {
+		padding: 0;
+		height: 30px;
+		width: 30px;
+	}
+	input[name="exactname"] {
+		margin-top: 0;
+		vertical-align: middle;
+	}
+	#kunena.layout .kfrontend .table td h3	{
+		text-transform: capitalize;
+	}
+	#search-options .form-control {
+		margin-bottom: 10px;
+	}
+	div button + button {
+		margin-left: 15px;
+	}
+	#ktopicsform > table {
+		margin-bottom: 10px;
+	}
+	#kunena.layout input[type='checkbox'] {
+		margin-top: 0;
+	}
+	li.dropdown.mobile-user #klogin{
+		margin-top: 5px;
+	}
+	#kunena.layout #catid{
+		margin-top: 10px;
+	}
+	#kunena.layout .search input{
+		width: 100%;
+		margin-left: 0;
+		height: 32px;
+	}
+}
+@media (max-width: 991px) {
+	#kunena.layout .navbar .nav {
+		width: auto;
+	}
+	#kunena.layout ul li.mobile-user {
+		margin: 0 !important;
+	}
+}
+@media (min-width: 768px) and (max-width: 960px) {
+	#remember.checkbox {
+		display: block;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-nav .open #userdropdownlogin.dropdown-menu {
+			margin-top: 20px;
+			position: absolute;
+			background-color: white;
+			border: 1px solid rgba(0, 0, 0, 0.15);
+			border-radius: 0;
+			-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+			min-width: 320px;
+	}
+	#kunena.layout .nav .dropdown-menu a {
+		display: block;
+	}
+	#kunena.layout .nav .dropdown-menu a.thumbnail {
+		border: none;
+	}
+	#k-lgn-secretkey {
+		width: 100%;
+		border: 1px solid #ccc;
+		padding: 5px 9px;
+		margin-bottom: 10px;
+	}
+	#userdropdownlogin div#remember + button {
+		margin-bottom: 20px !important;
+		+ a {
+			line-height: 5px;
+			display: block;
+			+ a {
+				line-height: 5px;
+				display: block;
+			}
+		}
+	}
+}

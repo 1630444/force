@@ -1,0 +1,38 @@
+.blog {
+	line-height: 24px;
+	color: #666;
+	.article-info {
+		padding: 15px 0;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		.article-info-term {
+			display: none;
+		}
+	}
+	.btn.modal {
+		display: inline-block;
+		vertical-align: top;
+		position: static;
+		overflow: visible;
+	}
+}
+
+.item-page  {	
+	.article-info {
+		padding: 15px 0;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}	
+}
+
+.category-list {
+	fieldset.filters {
+		margin: 0 0 10px;
+		.element-invisible {
+			margin: 0 5px;
+		}
+	}
+	.badge {
+		font-weight: normal;
+	}
+}

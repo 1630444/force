@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension>
+<extension version="2.5" type="file" method="upgrade">
+	<name>kunena_tmpl_jsn_theme</name>
+	<version>5.0.1</version>
+	<creationDate>2016-08-20</creationDate>
+	<author>Joomlashine Team</author>
+	<authorUrl>https://www.joomlashine.com</authorUrl>
+	<license>GNU/GPL</license>
+	<files>
+		<filename>config.xml</filename>
+		<filename>README.md</filename>
+		<filename>template.php</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>language</folder>
+		<folder>layouts</folder>
+		<folder>less</folder>
+		<folder>media</folder>
+		<folder>pages</folder>
+	</files>
+</extension>

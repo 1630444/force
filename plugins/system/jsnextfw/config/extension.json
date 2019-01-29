@@ -1,0 +1,41 @@
+{
+	"groups": [
+		{
+			"title": "JSN_EXTFW_CONFIGURATION_UPDATE",
+			"controls": {
+				"live_update_notification": {
+					"type": "radio",
+					"inline": true,
+					"label": "JSN_EXTFW_CONFIGURATION_UPDATE_LIVE_UPDATE_EMAIL_NOTIFICATION",
+					"hint": "JSN_EXTFW_CONFIGURATION_UPDATE_LIVE_UPDATE_EMAIL_NOTIFICATION_DESC",
+					"options": [
+						{
+							"label": "JNO",
+							"value": 0
+						},
+						{
+							"label": "JYES",
+							"value": 1
+						}
+					],
+					"default": 0,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				},
+				"live_update_check_interval": {
+					"type": "number",
+					"label": "JSN_EXTFW_CONFIGURATION_UPDATE_LIVE_UPDATE_CHECKING_INTERVAL",
+					"hint": "JSN_EXTFW_CONFIGURATION_UPDATE_LIVE_UPDATE_CHECKING_INTERVAL_DESC",
+					"suffix": "JSN_EXTFW_CONFIGURATION_UPDATE_LIVE_UPDATE_CHECKING_INTERVAL_UNIT",
+					"default": 6,
+					"filter": "uint",
+					"class": "row",
+					"labelClass": "col-auto",
+					"inputClass": "col-auto"
+				}
+			}
+		}
+	]
+}
